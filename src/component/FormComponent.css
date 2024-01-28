@@ -1,0 +1,85 @@
+/* src/FormComponent.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #084ca4;
+  }
+  
+  .container {
+    max-width: 500px;
+    border: 1px solid #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    padding: 30px;
+    background-color: #004080; 
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #fff; 
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #3498db; 
+    border-radius: 5px;
+  }
+  
+  
+  .form-check-input {
+    margin-right: 5px;
+  }
+  
+  .form-check-label {
+    color: #fff;
+  }
+  
+ 
+  
+.btn-primary {
+    background-color: #e48c44;
+    color: #fff;
+    border: none;
+    padding: 12px px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; 
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .btn-primary:hover {
+    background-color: #cc773a; 
+  }
+  
+  
+
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3498db; 
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Date input styling */
+  .form-control[type="date"] {
+    padding: 10px;
+    border: 1px solid #3498db; 
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+
+  @media (max-width: 576px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
